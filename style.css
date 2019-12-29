@@ -69,3 +69,14 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+li.list-group-item {
+    background-color: rgb(42, 93, 189);
+    color: white;
+}
+
+.cardFooter {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
