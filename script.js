@@ -9,7 +9,7 @@ $(document).ready(function () {
         };
         var time = hour + suffix
         item = localStorage.getItem(time)
-        if (item !== null){
+        if (item !== null) {
             // push those values into correspding input boxes
             $('.' + time + ' > input').val(item)
         }
@@ -18,7 +18,25 @@ $(document).ready(function () {
         };
     }
 
-console.log(moment().format())
+    // for (let hour = 0900; hour < 0800 || hour > 1800; hour++) {
+    // };
+    // var time = hour
+    // item = localStorage.getItem(time)
+    // if (item !== null) {
+    //     $('.' + time + '> input').val(item)
+    // }
+    // if (hour === 1200){
+    //     hour = 0;
+    // };
+
+
+    console.log(moment().format())
+
+    // link moment().format result to css styling
+    // 1. get result from moment.format
+    // 2. link time >current time to css coloring
+    // 3. set css coloring for card
+    // 4. set css coloring to grey if time is <current time
 
 
 
