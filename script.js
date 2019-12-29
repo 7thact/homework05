@@ -30,14 +30,28 @@ $(document).ready(function () {
     // };
 
 
-    console.log(moment().format())
+    
 
     // link moment().format result to css styling
     // 1. get result from moment.format
     // 2. link time >current time to css coloring
     // 3. set css coloring for card
     // 4. set css coloring to grey if time is <current time
+    
+    console.log(moment().format());
 
+    // var currentTime = moment().format();
+    // var pastTime = moment().format() -1;
+    // if (9 <= currentTime && currentTime < 20) {
+    //     if (document.body) {
+    //         document.body.background = 
+    //     }
+    // }
+    // else {
+    //     if (document.body) {
+    //         document.body.background = ;
+    //     }
+    // }
 
 
 
