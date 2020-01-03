@@ -70,7 +70,7 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-li.list-group-item {
+.list-group-item {
     background-color: rgb(42, 93, 189);
     color: white;
 }
@@ -79,4 +79,16 @@ li.list-group-item {
     background-color: black;
     color: white;
     margin-top: 30px;
+}
+
+.redBg {
+    background-color: red;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
 }
